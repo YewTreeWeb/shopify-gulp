@@ -1,0 +1,19 @@
+{
+  "name": "shopify-custom-config",
+  "version": "1.0.0",
+  "description": "shopify setup",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "shopify"
+  ],
+  "author": "Mathew Teague",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shopify-upload": "^2.0.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

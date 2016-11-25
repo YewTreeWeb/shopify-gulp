@@ -70,7 +70,7 @@ gulp.task('shopifywatch', function() {
 Styles
 ---------------*/
 gulp.task('sass', function() {
-  return gulp.src('./assets/scss/**/*.{sass,scss}')
+  return gulp.src('./assets/scss/*.{sass,scss}')
   .pipe( plumber() )
   .pipe( sourcemaps.init() )
   .pipe( sass({
@@ -115,6 +115,7 @@ gulp.task('images', function() {
   .on('error', handleErrors)
   .pipe( gulp.dest('./Timber/assets') )
   .pipe( gulp.dest('./assets/images') );
+});
 
 /*---------------
 Compile Files

@@ -1,0 +1,42 @@
+/*
+1 - Assets
+    - Bourbon
+    - Neat
+    - Bitters
+2 - Custom Assets
+    - Custom Mixins
+    - Custom Variables
+    - Header
+    - Footer
+3 - Pages
+    - Homepage
+*/
+
+/*------------------------------------
+
+1 - Assets
+
+------------------------------------*/
+@import "core/bourbon/bourbon";
+@import "core/neat/neat";
+@import "core/base/base";
+
+/*------------------------------------
+
+2 - Custom Assets
+
+------------------------------------*/
+
+@import "custom-assets/custom-assets";
+
+/*------------------------------------
+
+3 - Pages
+
+------------------------------------*/
+
+@import "pages/child-pages";
+
+body{
+  background: blue !important;
+}
